@@ -76,7 +76,7 @@ class ReportGenerator:
 
 # Main function
 def main():
-    log_reader = LogReader("auth_logs.txt")  # Log file name
+    log_reader = LogReader(" ")  # Log file name
     log_reader.readlogs()
 
     logs = log_reader.getlogs()
